@@ -14,13 +14,13 @@
   CONSTRAINT fk_username FOREIGN KEY (username) REFERENCES users (username));
   
   	INSERT INTO users(username,password,enabled)
-	VALUES ('mkyong','123456', true);
+	VALUES ('Raj','123456', true);
 	INSERT INTO users(username,password,enabled)
-	VALUES ('alex','123456', true);
+	VALUES ('Tomar','123456', true);
 	
 	INSERT INTO user_roles (username, role)
-	VALUES ('mkyong', 'ROLE_USER');
+	VALUES ('Raj', 'ROLE_USER');
 	INSERT INTO user_roles (username, role)
-	VALUES ('mkyong', 'ROLE_ADMIN');
+	VALUES ('Raj', 'ROLE_ADMIN');
 	INSERT INTO user_roles (username, role)
-	VALUES ('alex', 'ROLE_USER');
+	VALUES ('Tomar', 'ROLE_USER');
