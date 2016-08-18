@@ -21,7 +21,7 @@ public class AppUserDetailsServiceDAO implements UserDetailsService {
 		
 		logger.info("loadUserByUsername username="+username);
 		
-		if(!username.equals("raj")){
+		if(!username.equals("Raj")){
 			throw new UsernameNotFoundException(username + " not found");
 		}
 		
